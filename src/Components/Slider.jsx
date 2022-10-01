@@ -10,12 +10,23 @@ display: flex;
 background-color: coral;
 position : relative;
 overflow: hidden;
-`;
+`; 
 
 //for the wrapper
 const Wrapper = styled.div `
-  
+  height: 100%;
 `
+const Slide = styled.div`
+display: flex;
+align-items: center;
+`;
+const ImgContainer = styled.div`
+flex: 1;
+`;
+const InfoContainer = styled.div`
+flex: 1;
+`;
+ 
 // for the arrow tag
 const Arrow = styled.div`
   width: 50px;
